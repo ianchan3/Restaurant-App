@@ -5,7 +5,8 @@ import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
 
-const Footer = () => (
+const Footer = () => {
+  return (
   <div className="app__footer section__padding" id="login">
     <FooterOverlay />
     <Newsletter />
@@ -38,10 +39,8 @@ const Footer = () => (
         <p className="p__opensans">07:00 am - 11:00 pm</p>
       </div>
     </div>
-
-
-
   </div>
-);
+  )
+};
 
 export default Footer;

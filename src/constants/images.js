@@ -20,6 +20,7 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import pasta from '../assets/pasta.png';
 
 export default {
   bg,
@@ -43,5 +44,6 @@ export default {
   award05,
   sign,
   quote,
+  pasta,
   gericht,
 };
