@@ -7,7 +7,7 @@ export default function Newsletter() {
   const [feedback, setFeedback] = useState(false);
   return (
     <div className="app__newsletter">
-      <div className="app__newsletter-heading">
+      <div className="app__newsletter-heading" id="app__newsletter-heading">
         <SubHeading title="Contact Us" />
         <h1 className="headtext__cormorant">Have A Question or Concern?</h1>
       </div>

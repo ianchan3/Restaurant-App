@@ -55,9 +55,16 @@
 }
 
 @media screen and (max-width: 650px) {
+
   .app__newsletter {
       padding: 2rem 0;
       border: none;
+      max-width: 100%;
+  }
+
+  .app__newsletter textarea {
+    max-width: 100%;
+    margin-right: 0;
   }
 }
 
